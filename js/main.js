@@ -8,5 +8,6 @@
 
   open.addEventListener('click', () => {
     modal.classList.remove('hidden');
+    mask.classList.remove('hidden');
   });
 }
